@@ -1,16 +1,12 @@
-# apiflutter
+#Aplicativo Flutter - Consumo de API
 
-A new Flutter project.
+Este projeto é um aplicativo Flutter que consome uma API REST para exibir uma lista de vendedores com seus dados.
 
-## Getting Started
+Funcionalidades
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Consome uma API REST para obter dados de vendedores.
+Exibe os detalhes em uma lista (nome, empresa, produto vendido e meta de vendas).
+Mostra um indicador de carregamento enquanto os dados estão sendo obtidos.
+Tecnologias Utilizadas
+Flutter e Dart: Para o desenvolvimento do app.
+http: Para realizar requisições à API.
